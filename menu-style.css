@@ -1,0 +1,137 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Courier New';
+    
+
+}
+/* Main Page Start*/
+body{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+body::before{
+    content: '';
+    position: absolute;
+    top: 10%;
+    right: 0px;
+    bottom: 60%;
+    left: 0px;
+    background-image: url(menubackground.jpeg);
+    background-size: cover;
+
+    
+}
+
+
+li{
+    list-style: none;
+}
+
+
+
+.navbar{
+    background-color: rgb(255, 255, 255);
+    opacity: .9;
+    min-height: 70px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+a{
+    opacity: 1;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.nav-item{
+    opacity: 1;
+    color: black;
+}
+
+.nav-menu{
+    padding-top: 12px;
+    font-weight: bold;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    margin-right: 5%;
+}
+
+.nav-branding{
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding: 0 px;
+    font-size: 3rem;
+    margin-left: 6%;
+}
+
+.nav-link{
+    transition: 0.7s ease;
+
+}
+
+.nav-link:hover{
+    color: rgb(243, 39, 39);
+}
+
+.bar{
+    display: block;
+    width: 20px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color:rgb(255, 255, 255) ;
+}
+
+.nav-menu a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+    font-size: 1.4rem;
+}  
+.nav-menu a:hover {
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+  
+.nav-menu a.active {
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+.body-text{
+    background-color: white;
+    border: 12%;
+}
+/* Main Page End *?
+
+/* Menu Page */
+
+.NBWMenu {
+    position: absolute;
+    top: 25%;
+    left: 49.5%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 38px;
+    color: rgb(255, 255, 255);
+}
+.Apps{
+    font-weight: bolder;
+    border-bottom: 2px solid rgb(54, 53, 53);
+    font-size: 30px;
+    position: fixed;
+    bottom: 50%;
+    left: 8%;
+}
